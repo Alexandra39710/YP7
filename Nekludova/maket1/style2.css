@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fcd5ba;
+}
+
+button {
+  background: #ffffff;
+  color: #ff6347;
+  border: none;
+  padding: 10px 80px;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.container {
+  padding: 80px 0;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 40px;
+  border: 2px solid #fff;
+  padding: 12px 40px;
+  border-radius: 10px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px 80px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.modal-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #8f8f8f;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 350px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  padding: 8px 16px;
+  max-width: 400px;
+  height: 86px;
+  background: #fff;
+  margin-bottom: 32px;
+}
+
+input:hover {
+  border: 1px solid #70c05b;
+  box-shadow: 4px 8px 16px 0 rgba(112, 192, 91, 0.2);
+}
+
+textarea:focus,
+input:focus {
+  font-size: 24px;
+  outline: none;
+  color: #70c05b;
+  border-color: #70c05b;
+}
+
+.login-button {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #f63;
+
+  background: #fcd5ba;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 101px;
+}
+
+.bottom-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.register-button {
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  padding: 6px;
+  width: 121px;
+  height: 32px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #70c05b;
+  cursor: pointer;
+}
+
+.forgot-password {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #606060;
+  text-decoration: none;
+}
